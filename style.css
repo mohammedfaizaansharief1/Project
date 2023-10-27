@@ -6,13 +6,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #1B3764;
+    color: white;
+}
 header{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 70px;
-    background-color: red;
+    /* background-color: red; */
     position: relative;
 }
 .navbar{
@@ -22,20 +26,35 @@ header{
     position: absolute;
     width: 70vw;
     height: 50px;
-    background-color: aqua;
+    /* background-color: aqua; */
     font-family: 'Inter', sans-serif;
 }
 .navbar .logo{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.logo h1{
+    padding-left: 10px;
+
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
 }
 .links{
     display: flex;
     justify-content: center;
     align-items: center;
     /* border: 1px solid black; */
+    /* width: 70vw; */
+    font-family: 'Inter', sans-serif; 
+    font-size: 17px;
+    font-style: normal;
+    /* font-weight: 500; */
 }
 ul{
     display: flex;
@@ -43,17 +62,21 @@ ul{
     align-items: center;
     align-items: center;
     list-style-type: none;
-    background-color: bisque;
+    /* background-color: bisque; */
     margin-right: 30px;
 }
 .links ul li{
-    margin: 5px;
-    background-color: aquamarine;
+    margin-right: 30px;
+    /* background-color: aquamarine; */
 }
-ul i{
+ul li:nth-child(5){
+    margin-right: 26px;
+}
+/* ul i{
     width: 22px;
-    padding-left: 26px;
-}
+    padding-left: 26px; 
+     background-color: #FFCA42; 
+} */
 .button{
     display: flex;
     justify-content: center;
