@@ -31,14 +31,46 @@ header{
     justify-content: center;
     align-items: center;
 }
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
 ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    align-items: center;
     list-style-type: none;
     background-color: bisque;
+    margin-right: 30px;
 }
 .links ul li{
     margin: 5px;
     background-color: aquamarine;
+}
+ul i{
+    width: 22px;
+    padding-left: 26px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 13px 33px;
+    background-color: #FFCA42;
+    height: 50px;
+    width: 180px;
+    /* gap: 10px; */
+
+    color: #1B3764;
+    font-family: 'Cardo', serif;
+    /* font-family: 'Inter', sans-serif; */
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    /* letter-spacing: 0.38px; */
 }
