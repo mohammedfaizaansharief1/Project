@@ -20,7 +20,7 @@ header{
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    width: 70%;
+    width: 70vw;
     height: 50px;
     background-color: aqua;
     font-family: 'Inter', sans-serif;
