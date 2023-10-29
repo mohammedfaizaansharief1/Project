@@ -7,26 +7,27 @@
     box-sizing: border-box;
 }
 body{
+    width: 100%;
     background-color: #1B3764;
     color: white;
 }
 header{
+    width: 100%;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 70px;
-    /* background-color: red; */
-    position: relative;
+    background-color: red;
+    /* position: relative; */
 }
 .navbar{
+    width: 75%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
-    width: 70vw;
+    /* position: absolute; */
     height: 50px;
-    /* background-color: aqua; */
+    background-color: aqua;
     font-family: 'Inter', sans-serif;
 }
 .navbar .logo{
@@ -59,7 +60,6 @@ header{
 ul{
     display: flex;
     justify-content: center;
-    align-items: center;
     align-items: center;
     list-style-type: none;
     /* background-color: bisque; */
@@ -97,3 +97,4 @@ ul li:nth-child(5){
     line-height: 125%;
     /* letter-spacing: 0.38px; */
 }
+/* @media() */
