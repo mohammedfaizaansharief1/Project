@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Largest Countries</title>
+</head>
+<body>
+    <button onclick="fetchAndDisplayTopCountries()">Get Top 10 Countries</button>
+    <div id="output"></div>
+
+    <script>
+function fetchAndDisplayTopCountries() {
+    const apiUrl = 'https://restcountries.com/v2/all';
+
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(countries => {
+            
+            countries.sort((a, b) => b.area - a.area);
+
+           
+            const top10Countries = countries.slice(0, 10);
+
+           
+            displayCountriesInfo(top10Countries);
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+}
+
+function displayCountriesInfo(countries) {
+    const outputDiv = document.getElementById('output');
+    outputDiv.innerHTML = ''; 
+
+    countries.forEach(country => {
+        const countryInfo = document.createElement('p');
+        countryInfo.textContent = `Name: ${country.name}, Area: ${country.area} km²`;
+        outputDiv.appendChild(countryInfo);
+    });
+}
+function fetchAndDisplayTopCountries() {
+    const apiUrl = 'https://restcountries.com/v2/all';
+
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(countries => {
+            
+            countries.sort((a, b) => b.area - a.area);
+
+           
+            const top10Countries = countries.slice(0, 10);
+
+           
+            displayCountriesInfo(top10Countries);
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+}
+
+// function displayCountriesInfo(countries) {
+//     const outputDiv = document.getElementById('output');
+//     outputDiv.innerHTML = ''; 
+
+//     countries.forEach(country => {
+//         const countryInfo = document.createElement('p');
+//         countryInfo.textContent = `Name: ${country.name}, Area: ${country.area} km²`;
+//         outputDiv.appendChild(countryInfo);
+//     });
+// }
+</script>
+</body>
+</html>
