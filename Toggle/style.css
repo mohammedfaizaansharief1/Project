@@ -6,7 +6,8 @@
 body{
     height: 100vh;
     position: relative;
-    background: rgb(248, 231, 76);
+    /* background: rgb(248, 231, 76); */
+    transition: 0.8s;
 }
 .container{
     position: absolute;
@@ -51,4 +52,18 @@ body{
     font-size: 25px;
     font-family:Arial, Helvetica, sans-serif;
     margin-left: 10px;
+}
+.text1{
+    position: absolute;
+    top: 50%;
+    margin: 50px 50px 50px 50px ;
+}
+.text1 button{
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 25px;
+    /* background-color: black; */
+    /* color: white; */
 }
