@@ -1,0 +1,31 @@
+body{
+    background-image: linear-gradient(to bottom right,#1F357C,#3D175A);
+    background-repeat: no-repeat;
+    color: white;
+}
+.f_h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-decoration: underline; */
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+.middle input{
+    margin-right: 15px;
+    width: 15vw;
+    padding: 10px 10px 10px 5px;
+    font-size: 2vh ;
+    border-radius: 10px;
+}
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
