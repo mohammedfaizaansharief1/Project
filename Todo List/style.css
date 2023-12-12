@@ -1,7 +1,14 @@
+*{
+    padding: 0;
+    /* margin:0; */
+    box-sizing: border-box;
+}
 body{
     background-image: linear-gradient(to bottom right,#1F357C,#3D175A);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     color: white;
+    height: 100vh;
+    overflow: hidden;
 }
 .f_h1{
     display: flex;
@@ -23,9 +30,53 @@ body{
     font-size: 2vh ;
     border-radius: 10px;
 }
+.middle button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    background: linear-gradient(180deg, yellow,white,red);
+    border: none;
+}
 .lower{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid red;
+    height: 500px;
+}
+
+@media (min-width:0px) and (max-width:400px){
+    .middle input{
+        width: 8rem;
+        padding: 10px 10px 10px 5px;
+        font-size: 2vh ;
+        border-radius: 10px;
+    }
+    .middle button{
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        background: linear-gradient(180deg, yellow,white,red);
+        border: none;
+    }
+}
+
+@media (min-width:401px) and (max-width:600px){
+    .middle input{
+        /* margin-right: 15px; */
+        width: 10rem;
+        padding: 10px 10px 10px 5px;
+        font-size: 2vh ;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width:601px) and (max-width:1200px){
+    .middle input{
+        /* margin-right: 15px; */
+        width: 15rem;
+        padding: 10px 10px 10px 5px;
+        font-size: 2vh ;
+        border-radius: 10px;
+    }
 }
