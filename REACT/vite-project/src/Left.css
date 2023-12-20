@@ -2,6 +2,23 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+
 .left{
-    background-color: aqua;
+    background-color: white;
+    width: 30vw;
+    height: 86vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.h2{
+    color: #42a7c3;
+    
+}
+.para{
+    color: #9c9c9c;
+    font-size: .7rem;
 }

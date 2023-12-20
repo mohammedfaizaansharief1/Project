@@ -1,3 +1,12 @@
 .right{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    background-color: #42a7c3;
+    width: 27vw;
+    height: 86vh;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.right img{
+    width: 27vw;
+    height: 85vh;
 }
