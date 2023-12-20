@@ -8,5 +8,8 @@
 .container{
   width: 100vw;
   height: 100vh;
-  background-color: red;
+  background-color: #93cddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

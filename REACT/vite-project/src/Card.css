@@ -1,5 +1,9 @@
 .container1{
-    background-color: aqua;
-    width: 50vw;
-    height: 50vh;
+    background-color: #ffffff;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
