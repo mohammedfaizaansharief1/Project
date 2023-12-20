@@ -1,19 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
-import Child from './Child'
-import Child1 from './Child1'
+// import Child from './Child'
+// import Child1 from './Child1'
+import Card from './Card'
 
 function App() {
   // const [count, setCount] = useState(0)
 
-  let obj={
-    name:"Faizaan",
-    age:"20"
-  }
+  // let obj={
+  //   name:"Faizaan",
+  //   age:"20"
+  // }
 
-  let a=20
+  // let a=20
   // function fun(){
   //   if(a%2==0){
   //     console.log("Even")
@@ -24,7 +25,7 @@ function App() {
   // }
   return (
     
-    <>
+    <div className='container'>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -46,10 +47,12 @@ function App() {
         Click on the Vite and React logos to learn more
       </p> */}
 
-      <Child {...obj} /><br></br>
+      {/* <Child {...obj} /><br></br> */}
       {/* <Child1 /> */}
-      {a%2==0 ? <Child1/> :<p>No</p>}
-    </>
+      {/* {a%2==0 ? <Child1/> :<p>No</p>} */}
+      <Card />
+
+    </div>
   )
 }
 

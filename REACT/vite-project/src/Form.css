@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #93cddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+    background-color: white;
+    width: 65vw;
+    height: 80vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+.left{
+    background-color: red;
+    width: 30vw;
+    height: 75vh;
+    border-radius: 10px;
+    
+}
+.right{
+    background-color: #42a7c3;
+    width: 30vw;
+    height: 75vh;
+    margin-left: 35px;
+    border-radius: 10px;
+}
