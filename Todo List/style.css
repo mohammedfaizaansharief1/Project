@@ -11,6 +11,11 @@ body{
     height: 100vh;
     overflow: hidden;
 }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .f_h1{
     display: flex;
     align-items: center;
@@ -39,6 +44,8 @@ body{
     font-size: 1rem ;
     border-radius: 10px;
     resize: none;
+    font-family: sans-serif;
+    overflow: hidden;
 }
 .middle button{
     padding: 10px;
@@ -54,13 +61,13 @@ body{
     flex-direction: column;
     border: 1px solid red;
     height: 500px;
-    width: 28vw;
+    width: 30vw;
     padding: 8px 0px 0px 0px;
     gap: 8px;
-    margin-left: 35vw;
+    /* margin-left: 35vw; */
 }
 .item{
-    width: 400px;
+    width: 440px;
     background-color: red;
     display: flex;
     align-items: center;
@@ -89,10 +96,20 @@ body{
 
 @media (min-width:0px) and (max-width:400px){
     .middle input{
-        width: 8rem;
+        width: 80vw;
         padding: 10px 10px 10px 5px;
-        font-size: 2vh ;
+        font-size: 1rem;
         border-radius: 10px;
+    }
+    .middle textarea{
+        margin-right: 15px;
+        width: 80vw;
+        padding: 10px 10px 10px 5px;
+        font-size: 1rem ;
+        border-radius: 10px;
+        resize: none;
+        font-family: sans-serif;
+        overflow: hidden;  
     }
     .middle button{
         padding: 10px;
