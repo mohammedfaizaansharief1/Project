@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Todo List App</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 <body>
     <div class="container">
@@ -13,8 +14,9 @@
                 <h1 class="f_h1">TODO List</h1>
             </div>
             <div class="middle">
-                <input type="text" placeholder="Title">
-                <input type="text" placeholder="Description">
+                <input type="text" placeholder="Title" id="input1">
+                <!-- <input type="text" placeholder="Description" id="input2" maxlength="1000"> -->
+                <textarea name="" id="input2" cols="30" rows="5"></textarea>
                 <button type="submit">Add Task</button>
             </div>
             <div class="lower">
@@ -22,6 +24,7 @@
             </div>
         </div>
     </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
