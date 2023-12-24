@@ -84,6 +84,13 @@ body{
     gap: 15px;
     width: 350px;
 }
+.left input{
+    border-radius: 50%;
+}
+#myCheck:checked + div{
+    background-color: black;
+    text-decoration: line-through;
+}
 .left-in p{
     /* background-color: wheat; */
     width: 305px;
